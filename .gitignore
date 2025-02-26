@@ -1,0 +1,25 @@
+# Ignore virtual environment
+mediapipe_env/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files (Windows/macOS)
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temporary files
+*.log
+*.out
+*.tmp
+
+# Ignore environment files
+.env
+.vscode/
+.idea/
