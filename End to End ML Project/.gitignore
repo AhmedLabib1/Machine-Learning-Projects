@@ -1,0 +1,59 @@
+# Ignore virtual environment
+venv/
+env/
+
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Log files
+logs/
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment variables & secrets (never commit these)
+.env
+*.env
+config.json
+settings.json
+
+# Ignore dependencies (if using pip)
+*.egg-info/
+dist/
+build/
+
+# Ignore cache and temporary files
+.cache/
+*.tmp
+*.swp
+*.swo
+
+# Ignore database files
+*.sqlite3
+*.db
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore JetBrains (PyCharm) settings
+.idea/
+
+# Ignore Anaconda-related files
+anaconda3/
+conda-meta/
+
+# Ignore TensorBoard logs (if using TensorFlow)
+logs/
+events.out.tfevents.*
+
+# Ignore Streamlit cache (if deploying with Streamlit)
+.streamlit/
+
+*.egg-info/

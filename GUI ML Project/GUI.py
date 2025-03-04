@@ -8,7 +8,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # Load dataset
-data = pd.read_csv('housing.csv')
+data = pd.read_csv('C:\\Users\\ahmed\\Desktop\\Machine Learning Projects\\GUI ML Project\\housing.csv')
 X = data.drop('MEDV', axis=1)
 y = data['MEDV']
 
