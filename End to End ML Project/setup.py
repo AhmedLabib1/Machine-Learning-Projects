@@ -19,6 +19,6 @@ setup(
     author_email="ahmed.lapip51@gmail.com",
     description="A Machine Learning project for prediction",
     packages=find_packages(),
-    install_requires=read_requirements(),
+    install_requires=read_requirements("requirements.txt"),
     python_requires=">=3.8",
 )

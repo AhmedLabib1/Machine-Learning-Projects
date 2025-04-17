@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment
+.env
+.venv/
+env/
+venv/
+ENV/
+*.env
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and outputs
+*.log
+*.out
+
+# Python virtual environment files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# __pycache__ again, just in case
+**/__pycache__/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Jupyter Notebook hidden folders
+.ipynb_checkpoints/
+
+# Ignore pickle files
+*.pkl
